@@ -27,7 +27,7 @@
   </div>
   <div class="main" id="main-container">
     <h2 id="coin-title">Select a coin</h2>
-    <p>Notes: This generates YW2 QR codes <i>as</i> you scroll down. All my code is open source and can be found <a href="https://github.com/n123git/YWdata/">on my github</a>.</p>
+    <p>Notes: This generates Snack World QR codes <i>as</i> you scroll down. All my code is open source and can be found <a href="https://github.com/heartyalexii/qrbel-SnackWorld/">on my github</a>. You can find the original QRbel for YW2 at <a href="https://github.com/n123githeartyalexii/qrbel/"></a> </p>
     <div id="qr-list"></div>
     <div id="loading" class="loading">Loading...</div>
   </div>
@@ -305,7 +305,7 @@ function loadMore() {
 
     let dataStr = generateQR(base);
     if (dataStr.startsWith('/')) dataStr = dataStr.slice(1);
-    const url = 'n123git.iscool/' + dataStr;
+    const url = '' + dataStr;
 
     const item = document.createElement('div');
     item.className = 'qr-item';
@@ -328,3 +328,4 @@ function loadMore() {
   </script>
 </body>
 </html>
+
